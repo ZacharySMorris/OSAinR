@@ -1,0 +1,9 @@
+,red,yellow,green,light blue,orange,purple,brown,navy
+red,0,0,0,0,0,0,0,0
+green,1,0,1,0,0,0,0,0
+blue,1,0,1,1,0,0,0,0
+purple,1,0,1,1,1,1,0,0
+orange,1,0,1,1,1,0,0,0
+yellow,1,1,1,1,1,1,1,1
+brown,1,0,0,0,1,1,1,1
+navy,1,0,0,0,0,0,0,1

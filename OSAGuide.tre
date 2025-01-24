@@ -1,0 +1,43 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Mar 10 20:37:12 2014]
+[!
+>Data file = /Users/zmorris/Dropbox/OSAGuide/OSAGuideMatrix.nex
+>Exhaustive search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 7 total characters:
+>        All characters are of type 'irrev.up'
+>        All characters have equal weight
+>        2 characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 5
+>    Gaps are treated as "missing"
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Ancestor "standard" included in analysis
+>  Trees are rooted
+>
+>Exhaustive search completed:
+>   Number of trees evaluated = 135135
+>   Score of best tree found = 11
+>   Score of worst tree found = 28
+>   Number of trees retained = 4
+>   Time used = <1 sec (CPU time = 0.02 sec)
+]
+	Translate
+		1 red,
+		2 green,
+		3 blue,
+		4 violet,
+		5 orange,
+		6 yellow,
+		7 brown,
+		8 navy
+		;
+tree PAUP_1 = [&R] (1,((2,3),((((4,6),5),8),7)));
+tree PAUP_2 = [&R] (1,((2,(3,((4,6),5))),(7,8)));
+tree PAUP_3 = [&R] (1,(2,((3,((4,6),5)),7,8)));
+tree PAUP_4 = [&R] (1,(2,(3,(((4,6),5),8),7)));
+End;
