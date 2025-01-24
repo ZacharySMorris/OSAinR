@@ -15,6 +15,6 @@ if(!require(installr)) {
 
 ##Set Working Directory##
 
-setwd("/Users/zach/Dropbox/OSAinR/OSAinR")
+setwd("/Users/zach/Dropbox/OSAinR")
 
 getwd()
